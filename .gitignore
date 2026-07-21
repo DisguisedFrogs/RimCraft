@@ -11,6 +11,7 @@ gradle/build/
 
 #minecraft run artifacts
 run/
+runs/
 logs/
 
 #compiled class files
@@ -21,6 +22,18 @@ logs/
 .eclipse/
 .idea/
 build-logic/.kotlin/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+#build outputs
+out/
+bin/
+repo/
+src/generated/
 
 #keep gradle wrapper (do not ignore)
 !gradle/wrapper/gradle-wrapper.jar
